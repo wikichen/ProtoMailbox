@@ -14,6 +14,8 @@
 		7C822D661D04E47F00ADAAA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C822D641D04E47F00ADAAA2 /* LaunchScreen.storyboard */; };
 		7C822D711D04E47F00ADAAA2 /* ProtoMailboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C822D701D04E47F00ADAAA2 /* ProtoMailboxTests.swift */; };
 		7C822D7C1D04E47F00ADAAA2 /* ProtoMailboxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C822D7B1D04E47F00ADAAA2 /* ProtoMailboxUITests.swift */; };
+		7C822D8A1D04E92600ADAAA2 /* MailboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C822D891D04E92600ADAAA2 /* MailboxViewController.swift */; };
+		7C822D8C1D0553B500ADAAA2 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C822D8B1D0553B500ADAAA2 /* Common.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		7C822D771D04E47F00ADAAA2 /* ProtoMailboxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProtoMailboxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C822D7B1D04E47F00ADAAA2 /* ProtoMailboxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtoMailboxUITests.swift; sourceTree = "<group>"; };
 		7C822D7D1D04E47F00ADAAA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C822D891D04E92600ADAAA2 /* MailboxViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MailboxViewController.swift; sourceTree = "<group>"; };
+		7C822D8B1D0553B500ADAAA2 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,11 +101,13 @@
 		7C822D5A1D04E47F00ADAAA2 /* ProtoMailbox */ = {
 			isa = PBXGroup;
 			children = (
+				7C822D8B1D0553B500ADAAA2 /* Common.swift */,
 				7C822D5B1D04E47F00ADAAA2 /* AppDelegate.swift */,
 				7C822D5D1D04E47F00ADAAA2 /* ViewController.swift */,
 				7C822D5F1D04E47F00ADAAA2 /* Main.storyboard */,
 				7C822D621D04E47F00ADAAA2 /* Assets.xcassets */,
 				7C822D641D04E47F00ADAAA2 /* LaunchScreen.storyboard */,
+				7C822D891D04E92600ADAAA2 /* MailboxViewController.swift */,
 				7C822D671D04E47F00ADAAA2 /* Info.plist */,
 			);
 			path = ProtoMailbox;
@@ -256,8 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C822D8C1D0553B500ADAAA2 /* Common.swift in Sources */,
 				7C822D5E1D04E47F00ADAAA2 /* ViewController.swift in Sources */,
 				7C822D5C1D04E47F00ADAAA2 /* AppDelegate.swift in Sources */,
+				7C822D8A1D04E92600ADAAA2 /* MailboxViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
